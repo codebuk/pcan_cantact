@@ -1,7 +1,17 @@
 #include "usbd_core.h"
 #include "usbd_conf.h"
 
-#define USBD_VID                    0x0483
+/* PEAK-System device ids.
+#define PCAN_USB_PRODUCT_ID		0x000c
+#define PCAN_USBPRO_PRODUCT_ID		0x000d
+#define PCAN_USBPROFD_PRODUCT_ID	0x0011
+#define PCAN_USBFD_PRODUCT_ID		0x0012
+#define PCAN_USBCHIP_PRODUCT_ID		0x0013
+#define PCAN_USBX6_PRODUCT_ID		0x0014
+*/
+
+
+#define USBD_VID                    0x0C72
 #define USBD_PID_FS                 0x000C   
 #define USBD_LANGID_STRING          1033
 #define USBD_MAX_STR_DESC_SIZ       0x100U
