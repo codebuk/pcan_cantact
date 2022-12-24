@@ -16,8 +16,8 @@
 
 ## Fedora 
 
-`gh repo clone codebuk/pcan_cantact`
-* cd pcan_cantact/
+`gh repo clone codebuk/pcan_cantact
+cd pcan_cantact/ `
 * make 
 * ls build-canable/
 * USB device will change - this was for a as shipped canable
