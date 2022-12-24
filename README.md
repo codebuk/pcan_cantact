@@ -16,8 +16,11 @@
 
 * GNU Arm Embedded Toolchain
 
+## Fedora 
 
-License
-----
-
-WTFPL
+gh repo clone codebuk/pcan_cantact
+cd pcan_cantact/
+make 
+ls build-canable/
+USB device will change - this was for a as shipped canable
+sudo dfu-util -d 0483:df11 -c 1 -i 0 -a 0 -s 0x08000000 -D ./build-canable/pcan_canable_hw.bin 
