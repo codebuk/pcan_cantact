@@ -16,7 +16,7 @@
 
 ## Fedora 
 
-* gh repo clone codebuk/pcan_cantact
+`gh repo clone codebuk/pcan_cantact`
 * cd pcan_cantact/
 * make 
 * ls build-canable/
